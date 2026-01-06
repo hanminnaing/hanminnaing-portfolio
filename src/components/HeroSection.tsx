@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { AnimatedMetric } from '@/components/AnimatedMetric';
-import { MapPin, Mail, Phone, Linkedin, ChevronDown } from 'lucide-react';
+import { MapPin, Mail, Phone, Linkedin, ChevronDown, Download } from 'lucide-react';
 import profilePhoto from '@/assets/profile-photo.jpg';
 
 const metrics = [
@@ -99,6 +99,18 @@ export function HeroSection() {
               </Button>
               <Button variant="heroOutline" size="lg" asChild>
                 <a href="#contact">Contact Me</a>
+              </Button>
+              <Button variant="heroOutline" size="lg" asChild>
+                <a 
+                  href="/HanMinNaing_Resume.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  download="HanMinNaing_Resume.pdf"
+                  className="gap-2"
+                >
+                  <Download size={18} />
+                  Download Resume
+                </a>
               </Button>
             </div>
           </div>
