@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { AnimatedMetric } from '@/components/AnimatedMetric';
 import { MapPin, Mail, Phone, Linkedin, ChevronDown, Download } from 'lucide-react';
-import profilePhoto from '@/assets/profile-photo.jpg';
+import profilePhoto from '@/assets/profile-photo.png';
 
 const metrics = [
   { value: 10, suffix: '+', label: 'Years Experience', sublabel: '' },
